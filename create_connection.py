@@ -17,11 +17,22 @@ tables = [
     "party_user",
     "blocks",
     "block_user",
+    # "playlists",
+    # "playlist_items",
+    # "auto_playlists",
+    # "party_played_items",
+    # "messages",
+    # "countries",
+    # "friends",
+    # "task_time_marks",
+    # "party_boot",
+    # "block_building_level",
+    "last_activity"
 ]
 
 for table in tables:
     query = f"SELECT * FROM {table}"
-    rows = session.execute(query).all()
+    rows = session.execute(query)
     df = pd.DataFrame(rows)
     # display(df)
     df.to_csv(f"{table}.csv", encoding="utf-8")
