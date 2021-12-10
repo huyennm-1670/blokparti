@@ -6,21 +6,21 @@ pd.set_option("display.max_rows", 500)
 pd.set_option("display.max_columns", 500)
 pd.set_option("display.width", 1000)
 
-accounts = pd.read_csv("accounts.csv", encoding="utf-8", dtype={"phone": str})
+accounts = pd.read_csv("csv_files/accounts.csv", encoding="utf-8", dtype={"phone": str})
 parties = pd.read_csv(
-    "parties.csv",
+    "csv_files/parties.csv",
     encoding="utf-8",
     parse_dates=["begin_time", "end_time", "start_time", "updated_at"],
 )
 party_user = pd.read_csv(
-    "party_user.csv", encoding="utf-8", parse_dates=["created_at", "updated_at"]
+    "csv_files/party_user.csv", encoding="utf-8", parse_dates=["created_at", "updated_at"]
 )
-users = pd.read_csv("users.csv", encoding="utf-8")
-user_sessions = pd.read_csv("user_sessions.csv", encoding="utf-8")
+users = pd.read_csv("csv_files/users.csv", encoding="utf-8")
+user_sessions = pd.read_csv("csv_files/user_sessions.csv", encoding="utf-8")
 party_played_items = pd.read_csv(
-    "party_played_items.csv", encoding="utf-8", parse_dates=["played_at", "updated_at"]
+    "csv_files/party_played_items.csv", encoding="utf-8", parse_dates=["played_at", "updated_at"]
 )
-messages = pd.read_csv("messages.csv", encoding="utf-8", parse_dates=["created_at"])
+messages = pd.read_csv("csv_files/messages.csv", encoding="utf-8", parse_dates=["created_at"])
 
 
 # count number of parties host and duration
@@ -112,7 +112,7 @@ dff_ = pd.merge(
     right_on="id",
 )
 del dff_["id"]
-dff_.to_csv("dff_.csv", encoding="utf-8")
+# dff_.to_csv("dff_.csv", encoding="utf-8")
 
 # message
 message = pd.merge(

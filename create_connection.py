@@ -13,24 +13,24 @@ cluster.connection_class = LibevConnection
 session = cluster.connect()
 
 # keyspace: v10_stg for staging and v10_prod for prod
-session.set_keyspace("v10_prod")
+session.set_keyspace("v10_stg")
 
 tables = [
     "accounts",
     "users",
-    "parties",
-    "user_sessions",
-    "party_user",
-    "blocks",
-    "block_user",
-    "playlists",
-    "playlist_items",
-    "auto_playlists",
-    "party_played_items",
-    "messages",
-    "countries",
-    "friends",
-    "task_time_marks",
+    # "parties",
+    # "user_sessions",
+    # "party_user",
+    # "blocks",
+    # "block_user",
+    # "playlists",
+    # "playlist_items",
+    # "auto_playlists",
+    # "party_played_items",
+    # "messages",
+    # "countries",
+    # "friends",
+    # "task_time_marks",
     # "party_boot",
     # "block_building_level",
     # "last_activity"

@@ -1,0 +1,2125 @@
+user_id,event_params
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-2466763210713888950"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""39967"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""25346"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-2466763210713888950"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-2466763210713888951"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""3085"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""SplashActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""2828166403626516640"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""62863"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""2828166403626516639"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""SplashActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""2770"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-5888728313995124518"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""2950"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""SplashActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-6386739400523551600"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7731"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-6386739400523551600"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""33972"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""31976"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-6386739400523551600"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""34994"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-6386739400523551600"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-6386739400523551600"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""137495"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""3257"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""SplashActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-6386739400523551601"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""30324"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-9139763062883099570"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""2570"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-9139763062883099570"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-9139763062883099570"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""86299"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-9139763062883099571"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""SplashActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""3209"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-4056445128349062755"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""65028"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638968599"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""48026"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""18"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-4056445128349062755"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-1913527494301500929"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""2624"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-1913527494301500929"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""61909"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-1913527494301500927"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""PartiActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""3909"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""73864"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-1913527494301500929"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-1913527494301500930"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""SplashActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""2195"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-1913527494301500931"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""11498"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""-1913527494301500932"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""3842"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""SplashActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1410"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""8876709315700717396"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638956465"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""8876709315700717396"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""20593"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173793"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1772"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""60413"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173793"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""15434"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173793"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173801"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1046"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""PartiActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173799"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""3765"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""PartiActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1700"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173793"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173797"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""58886"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""PartiActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""84621"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""HomeActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173793"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
+mai977,"{
+  ""event_params"": [{
+    ""key"": ""firebase_screen_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""7247569025921173795"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engaged_session_event"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""engagement_time_msec"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""104096"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_screen_class"",
+    ""value"": {
+      ""string_value"": ""PartiActivity"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""firebase_event_origin"",
+    ""value"": {
+      ""string_value"": ""auto"",
+      ""int_value"": null,
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_number"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }, {
+    ""key"": ""ga_session_id"",
+    ""value"": {
+      ""string_value"": null,
+      ""int_value"": ""1638949453"",
+      ""float_value"": null,
+      ""double_value"": null
+    }
+  }]
+}"
