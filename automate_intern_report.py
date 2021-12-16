@@ -6,8 +6,8 @@ import pandas as pd
 from create_connection import get_data
 from userlist import blokparti_user_list
 
-# get_data()
-gsheet_url = "https://docs.google.com/spreadsheets/d/110Z1Td6Wmg4YrufT4TxLJ8eApzW_R6afH-qaEsFxNj8/edit#gid=1391228327"
+get_data()
+gsheet_url = "https://docs.google.com/spreadsheets/d/1qxoNvkSvDfmIhoJgs9XFucN01kCZsd-1TkVJSzRj-CA/edit#gid=839949834"
 
 # import data
 accounts = pd.read_csv("csv_files/accounts.csv", encoding="utf-8", dtype={"phone": str})
@@ -33,7 +33,6 @@ messages = pd.read_csv(
 )
 
 # count number of parties host and duration
-
 dff = pd.merge(
     party_user[["party_id", "user_id", "created_at", "role", "updated_at"]],
     parties[["id", "begin_time", "end_time", "updated_at", "creator_id"]],
@@ -109,7 +108,6 @@ dff_ = pd.merge(
 del dff_["id"]
 
 df = dff_[~dff_["phone"].isin(blokparti_user_list)]
-# df.to_csv("df.csv", encoding="utf-8")
 
 # starts pivoting
 basic_dff = pd.pivot_table(
@@ -175,16 +173,17 @@ basic_dff_ = basic_dff_[
         "username_pu_",
         "phone_",
         "name",
-        "party_id_guest",
         "party_id_host",
-        "party_duration_guest",
+        "party_id_guest",
         "party_duration_host",
+        "party_duration_guest",
         "all_duration",
         "duration_range",
     ]
 ]
 set_with_dataframe(worksheet, basic_dff_, row=2, col=2, include_column_header=False)
 
+basic_dff_.head(10)
 
 # participants
 participants = pd.pivot_table(
@@ -194,6 +193,7 @@ participants = pd.pivot_table(
     aggfunc=len,
     columns="role",
 ).reset_index()
+
 participants.columns = ["_".join(a) for a in participants.columns.to_flat_index()]
 participants = participants.sort_values(
     ["start_date_", "username_creator_"], ascending=False
@@ -289,3 +289,4 @@ playlist_gf = pd.merge(
 set_with_dataframe(
     worksheet, playlist_gf[["id"]], row=2, col=14, include_column_header=False
 )
+
