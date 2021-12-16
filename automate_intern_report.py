@@ -4,8 +4,10 @@ from timedelta_formatter import strfdelta
 import numpy as np
 import pandas as pd
 from create_connection import get_data
+from userlist import blokparti_user_list
 
 # get_data()
+gsheet_url = "https://docs.google.com/spreadsheets/d/110Z1Td6Wmg4YrufT4TxLJ8eApzW_R6afH-qaEsFxNj8/edit#gid=1391228327"
 
 # import data
 accounts = pd.read_csv("csv_files/accounts.csv", encoding="utf-8", dtype={"phone": str})
@@ -106,44 +108,8 @@ dff_ = pd.merge(
 )
 del dff_["id"]
 
-blokparti_user_list = [
-    "+84999888777",
-    "+84955555555",
-    "+84888888880",
-    "+84834420091",
-    "+819078468243",
-    "+84934567080",
-    "+819060137515",
-    "+84988364708",
-    "+84946140994",
-    "+84865990105",
-    "+84825755477",
-    "+84344444444",
-    "+84389967593",
-    "+84922979888",
-    "+819053166700",
-    "+13236336318",
-    "+84397595968",
-    "+13236759115",
-    "+84855957684",
-    "+818037367727",
-    "+84789789789",
-    "+84333333333",
-    "+84981787690",
-    "+84999980808",
-    "+84977977977",
-    "+84393309830",
-    "+84982525602",
-    "+819011111111",
-    "+817085291488",
-    "+84787199933",
-    "+84978026128",
-    "+84923456070",
-    "+84367897897",
-    "+84367441959",
-    "+84983603121",
-]
 df = dff_[~dff_["phone"].isin(blokparti_user_list)]
+# df.to_csv("df.csv", encoding="utf-8")
 
 # starts pivoting
 basic_dff = pd.pivot_table(
@@ -186,7 +152,6 @@ basic_dff.all_duration = basic_dff.all_duration.apply(lambda x: strfdelta(x, fmt
 basic_dff = basic_dff.sort_values(["start_date_", "username_pu_"], ascending=False)
 basic_dff = basic_dff.replace("0 days 0h0m0s", "")
 gc = gspread.service_account()
-gsheet_url = "https://docs.google.com/spreadsheets/d/110Z1Td6Wmg4YrufT4TxLJ8eApzW_R6afH-qaEsFxNj8/edit#gid=839949834"
 sh = gc.open_by_url(gsheet_url)
 worksheet = sh.worksheet("Detail")
 
