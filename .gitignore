@@ -2,3 +2,5 @@
 .vscode/
 env/
 *.pyc
+csv_files/
+json_files/
