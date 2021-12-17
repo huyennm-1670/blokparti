@@ -107,12 +107,14 @@ dff_ = pd.merge(
 )
 del dff_["id"]
 
-df = dff_[~dff_["phone"].isin(blokparti_user_list)]
+df = dff_[~(dff_["phone"].isin(blokparti_user_list)) & (dff_["party_begin_time"] > "2021-11-29")].copy()
+df["week"] = df["party_begin_time"].dt.isocalendar().week
+df["year"] = df["party_begin_time"].dt.isocalendar().year
 
 # starts pivoting
 basic_dff = pd.pivot_table(
     df,
-    index=["start_date", "username_pu", "phone"],
+    index=["start_date", "week", "year", "username_pu", "phone"],
     values=["party_id", "party_duration"],
     aggfunc={"party_duration": np.sum, "party_id": len},
     columns="role",
@@ -140,13 +142,19 @@ def time_range(timed):
 basic_dff["duration_range"] = basic_dff["all_duration"].apply(time_range)
 
 fmt = "{D} days {H}h{M}m{S}s"
-basic_dff.party_duration_guest = basic_dff.party_duration_guest.apply(
+basic_dff["party_duration_guest_text"] = basic_dff.party_duration_guest.apply(
     lambda x: strfdelta(x, fmt)
 )
-basic_dff.party_duration_host = basic_dff.party_duration_host.apply(
+basic_dff["party_duration_host_text"] = basic_dff.party_duration_host.apply(
     lambda x: strfdelta(x, fmt)
 )
-basic_dff.all_duration = basic_dff.all_duration.apply(lambda x: strfdelta(x, fmt))
+basic_dff["all_duration_text"] = basic_dff.all_duration.apply(lambda x: strfdelta(x, fmt))
+
+#turn timedelta into seconds
+basic_dff["party_duration_guest"] = basic_dff.party_duration_guest.dt.total_seconds()
+basic_dff["party_duration_host"] = basic_dff.party_duration_host.dt.total_seconds()
+basic_dff["all_duration"] = basic_dff.all_duration.dt.total_seconds()
+
 basic_dff = basic_dff.sort_values(["start_date_", "username_pu_"], ascending=False)
 basic_dff = basic_dff.replace("0 days 0h0m0s", "")
 gc = gspread.service_account()
@@ -169,12 +177,17 @@ basic_dff_ = pd.merge(
 )
 basic_dff_ = basic_dff_[
     [
+        "week_",
+        "year_",
         "start_date_",
         "username_pu_",
         "phone_",
         "name",
         "party_id_host",
         "party_id_guest",
+        "party_duration_host_text",
+        "party_duration_guest_text",
+        "all_duration_text",
         "party_duration_host",
         "party_duration_guest",
         "all_duration",
@@ -183,7 +196,15 @@ basic_dff_ = basic_dff_[
 ]
 set_with_dataframe(worksheet, basic_dff_, row=2, col=2, include_column_header=False)
 
-basic_dff_.head(10)
+#get party hosts
+dfd = df.sort_values(["start_date", "username_pu", "username_creator"], ascending=False)[["start_date","username_pu", "role", "username_creator"]]
+dfd = dfd[dfd.role=="guest"].drop_duplicates()
+dfd['party_host'] = dfd.groupby(['start_date', "username_pu"])['username_creator'].transform(lambda x : ', '.join(x))
+dfdf = pd.merge(basic_dff_, dfd, how="left", left_on=["username_pu_", "start_date_"], right_on=["username_pu", "start_date"])
+dfdf = dfdf[["start_date_", "username_pu_", "party_host"]].drop_duplicates()
+set_with_dataframe(
+    worksheet, dfdf[["party_host"]], row=2, col=20, include_column_header=False
+)
 
 # participants
 participants = pd.pivot_table(
@@ -206,7 +227,7 @@ dfg = pd.merge(
     right_on=["username_creator_", "start_date_"],
 )
 set_with_dataframe(
-    worksheet, dfg[["user_id_guest"]], row=2, col=12, include_column_header=False
+    worksheet, dfg[["user_id_guest"]], row=2, col=17, include_column_header=False
 )
 
 # message
@@ -260,7 +281,7 @@ message_df = pd.merge(
     right_on=["message_date", "username"],
 )
 set_with_dataframe(
-    worksheet, message_df[["message_id"]], row=2, col=13, include_column_header=False
+    worksheet, message_df[["message_id"]], row=2, col=18, include_column_header=False
 )
 
 # playlist_items
@@ -287,6 +308,9 @@ playlist_gf = pd.merge(
     right_on=["start_date", "username_pu"],
 )
 set_with_dataframe(
-    worksheet, playlist_gf[["id"]], row=2, col=14, include_column_header=False
+    worksheet, playlist_gf[["id"]], row=2, col=19, include_column_header=False
 )
+
+
+
 
