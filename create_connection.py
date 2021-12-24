@@ -48,4 +48,5 @@ def get_data():
 
     print(f"Processing time to get data is {time.time() - start_time}s")
 
-# get_data()
+if __name__ == "__main__":
+    get_data()

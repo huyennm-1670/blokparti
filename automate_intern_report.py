@@ -5,9 +5,12 @@ import numpy as np
 import pandas as pd
 from create_connection import get_data
 from userlist import blokparti_user_list
+from pathlib import Path
+from flatten_nested_json_columns import flatten_nested_json_df
+from get_id_frontend import get_global_id
 
-get_data()
-gsheet_url = "https://docs.google.com/spreadsheets/d/1qxoNvkSvDfmIhoJgs9XFucN01kCZsd-1TkVJSzRj-CA/edit#gid=839949834"
+# get_data()
+gsheet_url = "https://docs.google.com/spreadsheets/d/1Mm9kJBH5i_tiB3D9UE4ewEfb8_XQ_ruUzvwbGt-1EUA/edit#gid=2051699675"
 
 # import data
 accounts = pd.read_csv("csv_files/accounts.csv", encoding="utf-8", dtype={"phone": str})
@@ -107,10 +110,13 @@ dff_ = pd.merge(
 )
 del dff_["id"]
 
-df = dff_[~(dff_["phone"].isin(blokparti_user_list)) & (dff_["party_begin_time"] > "2021-11-29")].copy()
+df = dff_[
+    ~(dff_["phone"].isin(blokparti_user_list))
+    & (dff_["party_begin_time"] > "2021-11-29")
+].copy()
 df["week"] = df["party_begin_time"].dt.isocalendar().week
 df["year"] = df["party_begin_time"].dt.isocalendar().year
-
+df.to_csv("raw_data.csv")
 # starts pivoting
 basic_dff = pd.pivot_table(
     df,
@@ -148,9 +154,11 @@ basic_dff["party_duration_guest_text"] = basic_dff.party_duration_guest.apply(
 basic_dff["party_duration_host_text"] = basic_dff.party_duration_host.apply(
     lambda x: strfdelta(x, fmt)
 )
-basic_dff["all_duration_text"] = basic_dff.all_duration.apply(lambda x: strfdelta(x, fmt))
+basic_dff["all_duration_text"] = basic_dff.all_duration.apply(
+    lambda x: strfdelta(x, fmt)
+)
 
-#turn timedelta into seconds
+# turn timedelta into seconds
 basic_dff["party_duration_guest"] = basic_dff.party_duration_guest.dt.total_seconds()
 basic_dff["party_duration_host"] = basic_dff.party_duration_host.dt.total_seconds()
 basic_dff["all_duration"] = basic_dff.all_duration.dt.total_seconds()
@@ -196,11 +204,21 @@ basic_dff_ = basic_dff_[
 ]
 set_with_dataframe(worksheet, basic_dff_, row=2, col=2, include_column_header=False)
 
-#get party hosts
-dfd = df.sort_values(["start_date", "username_pu", "username_creator"], ascending=False)[["start_date","username_pu", "role", "username_creator"]]
-dfd = dfd[dfd.role=="guest"].drop_duplicates()
-dfd['party_host'] = dfd.groupby(['start_date', "username_pu"])['username_creator'].transform(lambda x : ', '.join(x))
-dfdf = pd.merge(basic_dff_, dfd, how="left", left_on=["username_pu_", "start_date_"], right_on=["username_pu", "start_date"])
+# get party hosts
+dfd = df.sort_values(
+    ["start_date", "username_pu", "username_creator"], ascending=False
+)[["start_date", "username_pu", "role", "username_creator"]]
+dfd = dfd[dfd.role == "guest"].drop_duplicates()
+dfd["party_host"] = dfd.groupby(["start_date", "username_pu"])[
+    "username_creator"
+].transform(lambda x: ", ".join(x))
+dfdf = pd.merge(
+    basic_dff_,
+    dfd,
+    how="left",
+    left_on=["username_pu_", "start_date_"],
+    right_on=["username_pu", "start_date"],
+)
 dfdf = dfdf[["start_date_", "username_pu_", "party_host"]].drop_duplicates()
 set_with_dataframe(
     worksheet, dfdf[["party_host"]], row=2, col=20, include_column_header=False
@@ -311,6 +329,69 @@ set_with_dataframe(
     worksheet, playlist_gf[["id"]], row=2, col=19, include_column_header=False
 )
 
+#import json bigquery files and make a dataframe
+folder = "json_files"
+files = [f for f in Path(folder).glob("*") if f.is_file()]
+glued_df = pd.DataFrame()
+for file in files:
+    x = pd.read_json(file, convert_dates=["event_timestamp", "event_date"])
+    glued_df = pd.concat([glued_df, x], axis=0)
+
+glued_df = flatten_nested_json_df(glued_df)
+
+#transform dataframe
+event_names = [
+    "parti_unmute_talk",
+    # "parti_join",
+    # "parti_leave",
+    "parti_mute_talk",
+    "parti_unmute_music",
+    "parti_mute_music",
+]
+df = glued_df[
+    (glued_df["event_params.key"] == "label")
+    & (glued_df["event_name"].isin(event_names))
+].copy()
+df["account_id"] = df["event_params.value.string_value"].apply(get_global_id)
+df["party_date"] = df["event_timestamp"].dt.date
+df = pd.merge(
+    df,
+    users[["account_id", "id", "username"]],
+    how="left",
+    left_on="account_id",
+    right_on="account_id",
+)
+df = df.dropna(subset=["username", "id"])
+
+#pivoting
+activities = pd.pivot_table(
+    df,
+    index=["party_date", "username"],
+    values=["event_timestamp"],
+    columns=["event_name"],
+    aggfunc="count",
+).reset_index()
+activities.columns = ["_".join(a) for a in activities.columns.to_flat_index()]
+activities_df = pd.merge(
+    basic_dff_,
+    activities,
+    how="left",
+    left_on=["start_date_", "username_pu_"],
+    right_on=["party_date_", "username_"],
+)
 
 
-
+set_with_dataframe(
+    worksheet,
+    activities_df[
+        [
+            "event_timestamp_parti_mute_music",
+            "event_timestamp_parti_unmute_music",
+            "event_timestamp_parti_mute_talk",
+            "event_timestamp_parti_unmute_talk",
+        ]
+    ],
+    row=2,
+    col=22,
+    include_column_header=False,
+)
