@@ -4,3 +4,6 @@ env/
 *.pyc
 csv_files/
 json_files/
+notebooks/
+example.py
+credentials.json

@@ -4,26 +4,33 @@ import pandas as pd
 
 
 def get_global_id(label_id: str):
-  if label_id is not None or label_id != "":
-    query1 = '''query {
-    databaseId(globalId: "'''
+    while True:
+        try:
+            if label_id is not None or label_id != "":
+                query1 = '''query {
+        databaseId(globalId: "'''
 
-    query2 = '''") {
-        type
-        id
-      }
-    }'''
+                query2 = """") {
+            type
+            id
+          }
+        }"""
 
-    query = query1 + label_id + query2
+                query = query1 + label_id + query2
 
-    url = 'https://st-api.blokparti.es/v10/graphql'
-    r = requests.post(url, json={'query': query})
-    json_data = json.loads(r.text)
+                url = "https://st-api.blokparti.es/v10/graphql"
+                r = requests.post(url, json={"query": query})
+                json_data = json.loads(r.text)
 
-    id_ = json_data['data']['databaseId']['id']
-  else:
-    id_ = None
-  return id_
+                id_ = json_data["data"]["databaseId"]["id"]
+            else:
+                id_ = None
+            return id_
+        except ValueError as e:
+            print(f"Error: {label_id}")
+            print(e)
+            pass
 
-if __name__ == '__main__':
-  print(get_global_id("QWNjb3VudDpjMTU2Njc0ZTU2NzUxMWVjYTM1OGQyNWJjMDU5OTRlZQ=="))
+
+if __name__ == "__main__":
+    print(get_global_id("QWNjb3VudDpjMTU2Njc0ZTU2NzUxMWVjYTM1OGQyNWJjMDU5OTRlZQ=="))

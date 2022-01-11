@@ -7,10 +7,10 @@ from create_connection import get_data
 from userlist import blokparti_user_list
 from pathlib import Path
 from flatten_nested_json_columns import flatten_nested_json_df
-from get_id_frontend import get_global_id
+from get_global_id_graphql import get_global_id
 
-# get_data()
-gsheet_url = "https://docs.google.com/spreadsheets/d/1Mm9kJBH5i_tiB3D9UE4ewEfb8_XQ_ruUzvwbGt-1EUA/edit#gid=2051699675"
+get_data()
+gsheet_url = "https://docs.google.com/spreadsheets/d/1qxoNvkSvDfmIhoJgs9XFucN01kCZsd-1TkVJSzRj-CA/"
 
 # import data
 accounts = pd.read_csv("csv_files/accounts.csv", encoding="utf-8", dtype={"phone": str})
@@ -83,7 +83,7 @@ def party_duration(row):
             row["user_party_updated_at"] is pd.NaT
             and row["party_end_time"] is not pd.NaT
         ):
-            return row["party_end_time"] - row["user_party_created_at"]
+            return row["party_end_time"] - row["party_begin_time"]
         elif (
             row["user_party_updated_at"] is not pd.NaT
             and row["party_end_time"] is not pd.NaT
